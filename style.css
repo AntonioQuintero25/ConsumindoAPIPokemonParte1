@@ -1,0 +1,52 @@
+body{
+    background-image: url('./img/anniversaryposter2019.jpg');
+    background-size: cover;
+    background-repeat: repeat;
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#root{
+    background-color: rgba(0, 0, 0, 0.5);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#pesquisa-pokemon{
+    padding: 25px;
+    border: 1px solid red;
+}
+
+#dado-pokemon{
+    background-color: black;
+    width: 80%;
+    min-height: 80vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+#imagem-pokemon{
+    background-color: blanchedalmond;
+    width: 30%;
+    height: 75vh;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#propriedades-pokemon
+{
+    background-color: blanchedalmond;
+    width: 65%;
+    height: 75vh;
+    padding: 50px;
+    box-sizing: border-box;
+
+}
